@@ -1,0 +1,293 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+    .newimg{
+             position:relative;
+              }
+
+      img{
+          clip-path: polygon(0 0, 100% 0%, 100% 81%, 52% 100%, 0 80%);
+          width: 100%;
+          height: 800px;
+          opacity: 0.8;
+        }
+        h3{
+          border: 1px solid white;
+        }
+        .menubar{
+          position: fixed;
+          display: flex;
+          top: 0;
+          justify-content: center;
+          align-items: center;
+          z-index: 1111;
+        }
+        .logo{
+          display: flex;
+          flex: 0.5;
+          justify-content: center;
+          align-items: center;
+          color: white;
+
+        }
+        ul{
+          display: flex;
+          flex: 0.5;
+          list-style: none;
+          gap: 40px;
+          text-transform: capitalize;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          align-items: end;
+          padding-left: 455px;
+          
+        }
+        span{
+          background-color: white;
+          color: black;
+          text-transform: uppercase;
+          letter-spacing: 10px;
+
+        }
+        .title{
+          position:absolute;
+          bottom: 5px;
+          display: grid;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          text-transform: capitalize;
+          color: white;
+          font-size: 20px;
+          right: 210px;
+
+        }
+        .welcome{
+          color:white;
+          /* margin-left: 100px; */
+        }
+        h1{
+          padding-left: 270px;
+        }
+        .client{
+          padding-left: 270px;
+
+        }
+        .para{
+          margin-left: 360px;
+          font-size: 20px;
+          color: white;
+          width: 800px;
+        
+        }
+        .btn{
+          padding:20px;
+          padding-bottom:2px ;
+        }
+        button{
+          font-size: 17px;
+          width: 200px;
+          height: 40px;
+          text-transform: uppercase;
+        }
+        .b1{
+          background-color: blueviolet;
+          border: 1px solid blue;
+          color: white;
+        }
+        .b2{
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+        }
+.icon{
+  position: absolute;
+  width: 65px;
+  height: 50px;
+  border-radius: 60%;
+  background-color: gray;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  right: 605px;
+  bottom: -235px;
+}
+.fa-anchor{
+  font-size: 25px;
+  color: white;
+}
+.flexbox{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 50px;
+  gap: 50px;
+}
+i{
+  font-size: 20px;
+  transform: rotate(133deg);
+}
+.i1{
+  border: 1px solid red;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  transform: rotate(225deg);
+}
+
+.firstitem{
+  color: red;
+}
+.i2{
+  width: 50px;
+  height: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-left: 120px;
+}
+.fa-heart{
+transform: rotate(360deg);
+}
+.fa-lightbulb{
+  transform: rotate(360deg);
+}
+.i3{width: 50px;
+  height: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-left: 120px;
+
+}
+.fa-comments{
+  transform: rotate(360deg);
+}
+.i4{
+  width: 50px;
+  height: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-left: 120px;
+}
+.left{
+  position: absolute;
+  width: 50px;
+  background-color: gray;
+  color: white;
+  height: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  left: 40px;
+
+}
+.right{
+  position: absolute;
+  width: 50px;
+  background-color: gray;
+  color: white;
+  height: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  left: 1300px;
+}
+
+.p1{ 
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
+    </style>
+</head>
+<body>
+  <div class="main">
+    <div class="newimg">
+      <img src="https://c4.wallpaperflare.com/wallpaper/623/576/7/sunset-lake-dark-background-wallpaper-preview.jpg" alt="">
+  </div>
+    <div class="menubar">
+        <div class="logo">
+        <h3><span>l</span>ogo</h3>
+        </div>
+      <div class="menuitem">
+      <ul>
+      <li>home</li>
+      <li>about us</li>
+      <li>portfolio</li>
+      <li>pricing</li>
+      <li>blog</li>
+      <li>Contact</li>
+      </ul>
+    </div>
+      </div>  
+    </div>
+    <div class="title">
+    <p class="client"> our client are first priority</p>
+    <div class="welcome">
+    <h1>Welcome to sky</h1>
+    <!-- <hr> <b class="fa-solid fa-circle"></b><hr> -->
+    </div>
+    <div class="slider">
+      <div class="right"><b class="fa-solid fa-chevron-right"></b></div>
+      <div class="left"><b class="fa-solid fa-chevron-left"></b></div>
+    </div>
+    <div class="para">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda doloribus maxime praesentium, facere accusantium rerum, accusamus hic et nostrum aliquam illo veritatis cum ipsam eos fugiat similique consequuntur mollitia?</p>
+    <div class="btn">
+    <button class="b1">Get started now</button>
+    <button class="b2">learn mode </button>
+  </div>
+    </div>
+   </div>
+   </div>
+   <div class="icon">
+    <b class="fa-solid fa-anchor"></b>
+    </div>
+    <section>
+      <div class="flexbox">   
+        <div class="firstitem">
+        <div class="i1"> <i class="fa-solid fa-infinity"></i></div>
+        <p class="p1">sleek design</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, magnam praesentium neque aut natus provident. Laborum corporis sed sequi modi excepturi, minima error cum? Doloribus ullam minus ipsum enim libero.</p>
+        </div>
+        <div class="seconditem">
+          <div class="i2"><i class="fa-regular fa-heart"></i></div>
+          <p class="p1">clean code</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, reiciendis eius quos dolore reprehenderit quod quibusdam omnis sequi vero molestias ratione asperiores officia maiores at vitae laborum tenetur est. Nam?</p>
+  </div>
+  <div class="thirditem">
+    <div class="i3"><i class="fa-regular fa-lightbulb"></i></div>
+    <p class="p1">creative ideas</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, iure harum. Quia facilis accusantium exercitationem! Hic, ab! Fugit, nisi quas! Quia facilis alias quas debitis qui minus dicta et magnam.</p>
+  </div>
+  <div class="forthitem">
+    <div class="i4"><i class="fa-solid fa-comments"></i></div>
+    <p class="p1">free support</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati est beatae esse ducimus nulla eligendi id sapiente rem nihil nobis provident, facere impedit velit hic aspernatur consequatur temporibus pariatur sit!</p>
+      </div>
+    </section>
+</body>
+</html>

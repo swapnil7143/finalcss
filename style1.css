@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ ul{
+    list-style: none
+ }
+  
+ /* ======================================== */
+ .myheader{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 111;
+ }
+ .myheader .topheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .myheader .topheader .logo span{
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .myheader .topheader .menubar{
+    display: flex;
+ }
+ .myheader .topheader .menubar ul{
+    display: flex;
+    gap: 20px;
+ }
+ .myheader .topheader .login span{
+font-size: 18px;
+padding-right: 10px;
+ }
+ .myheader .topheader .login .btn {
+height: 48px;
+width: 169px;
+background-color: #ECE5FF;
+color: #794CFF;
+}
+
+.myheader .topheader .menubtn{
+    display: none;
+}
+.myheader .topheader .menubtn button{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+}
+.sec1{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+.sec1 .offer .offer1 {
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color:  lightgreen;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 12px;
+}
+.sec1 .offer .offer2 {
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: grey;
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.sec1 h2{
+    font-size: calc(5px + 3vw);
+    font-family: sans-serif;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.sec1 p{
+    font-size: calc(3px + 2vw);
+    font-family: sans-serif;
+    color: gray;
+    padding-top: 10px;
+}
+.sec1 .email{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+
+}
+.sec1 .email input{
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+
+}
+.sec1 .email .btn{
+    height: 30px;
+    width: 100px;
+    background-color:#794CFF;
+    color: white;
+}
+.sec1 .bgimg {
+    margin-top: 20px;
+    width: 100%;
+}
+.sec1 .bgimg img{
+    width: 100%;
+}
+.lower {
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+  }
+
+.photo {
+    display: flex;
+  }
+  .s1 {
+    height: 40px;
+    width: 90px;
+    border: 2px dashed lightblue;
+    padding: 8px;
+  }
+  .s2 {
+    height:40px;
+    width: 100px;
+    border: 2px dashed lightblue;
+    padding: 8px;
+  }
+  .s3 {
+    height: 40px;
+    width: 90px;
+    border: 2px dashed lightblue;
+    padding: 8px;
+  }
+  .s4 {
+    height: 40px;
+    width: 90px;
+    border: 2px dashed lightblue;
+    padding: 8px;
+  }
+  .s5 {
+    height: 40px;
+    width: 90px;
+    border: 2px dashed lightblue;
+    padding: 8px;
+  }
+  
+

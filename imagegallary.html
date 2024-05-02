@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body{
+        background-color: gray;
+      }
+      .imagegallry{
+        display: flex;
+
+      }
+.main{ 
+    flex: 3.5;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;  
+ }
+ .menubar{
+    flex: 0.5;
+ display: grid; 
+ text-align: center;  
+ }
+ ul{
+  text-decoration: none;
+  list-style: none;
+ }
+ i{
+  font-size: 20px;
+  padding: 5px;
+ }
+
+img{
+  width: 100%;
+  height: 500px;
+  vertical-align: middle; 
+}
+
+.s1 {
+  height: 100%;
+  grid-row: 1;
+  grid-column: 1 /span 3;
+  
+}
+.s4{
+  height: 100%;
+  grid-row: 2;
+  grid-column:2 /span 2;
+}
+.s6{
+  height: 100%;
+  grid-row: 3;
+grid-column: 1 /span 2;
+}
+.s7{
+  height: 100%;
+  grid-row: 3;
+  grid-column: 3 /span 2;
+}
+.s10{
+  height: 100%;
+  grid-row: 4;
+  grid-column: 3 /span 2;
+ }
+
+.menubar{
+  text-align: right;
+  }
+
+.menu .menubar h4{
+  font-size: 15px;
+  color:white;
+  text-transform: uppercase;
+ }
+.menu .menubar ul{
+  text-decoration: none;
+  list-style: none;
+ }
+ .menu .menubar ul li{
+  color: aqua;
+  padding: 5px;
+  font-size: 20px;
+  text-transform: capitalize;
+
+ }
+ .menu .menubar i{
+  color: aqua;
+ padding: 10px;
+ }
+
+    </style>
+</head>
+<body>
+
+<div class="imagegallry"> 
+  <div class="main">
+    <div class="s1">
+      <img src="/images/image4.jpg" alt="">
+    </div>
+
+ <div class="s2">
+  <img src="/images/image6.jpg" alt="">
+</div>
+
+  <div class="s3">
+  <img src="images/image7.jpg" alt="">
+</div>
+
+  <div class="s4">
+<img src="images/image9.jpg" alt="">
+  </div>
+
+  <div class="s5">
+    <img src="images/image10.jpg" alt="">
+  </div>
+
+  <div class="s6">
+    <img src="images/image11.jpg" alt="">
+  </div>
+ 
+  <div class="s7">
+    <img src="images/images12.jpeg" alt="">
+ </div>
+
+  <div class="s8">
+    <img src="images/image13.jpg" alt="">
+</div>
+   
+  <div class="s9">
+    <img src="images/image14.jpg" alt="">
+  </div>
+<div class="s10">
+  <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/rose-729509_640.jpg" alt="">
+</div>
+</div>
+<div class="menubar">
+  <ul>
+    <h1>SHUTTER</h1>
+    <li>Home</li>
+    <li>Photos</li>
+    <li>Bio</li>
+    <li>Blog</li>
+    <li>Contact</li>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </div>
+  </ul>
+</div>
+</div>
+</body>
+</html>

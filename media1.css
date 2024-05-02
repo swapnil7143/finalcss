@@ -1,0 +1,130 @@
+@media (max-width:576px) {
+    .myheader .topheader .menubar ul{
+        display: none;
+     } 
+     .myheader .topheader .login{
+        display: none;
+     }
+     .myheader .topheader .menubtn{
+        display: block;
+    }
+    .sec1 .offer .offer1 {
+        display: none;
+    }
+    .sec1 .email{
+        display: grid;    
+    }
+    .sec1 .email .btn{
+        height: 30px;
+        width: 200px;
+    }
+    
+
+    
+
+}
+/* ========================= */
+@media (min-width:576px) {
+    .myheader .topheader .menubar ul{
+        display: none;
+     } 
+     .myheader .topheader .login{
+        display: none;
+     }
+     .myheader .topheader .menubtn{
+        display: block;
+    }
+    .sec1 .offer .offer1 {
+        display: none;
+    } 
+    .sec1 .email{
+        display: grid;    
+    
+    }
+    .sec1 .email .btn{
+        height: 30px;
+        width: 200px;
+    }
+    
+    
+}
+/* ========================= */
+@media (min-width:768px) {
+    .myheader .topheader .menubar ul{
+        display: none;
+     } 
+     .myheader .topheader .login{
+        display: none;
+     }
+     .myheader .topheader .menubtn{
+        display: block;
+    }
+    .sec1 .offer .offer1 {
+        display: none;
+    } 
+    .sec1 .email{
+        display: grid;    
+    
+    }
+    .sec1 .email .btn{
+        height: 30px;
+        width: 200px;
+    }
+    
+}
+/* ========================= */
+@media (min-width:992px) {
+    .myheader .topheader .menubar ul{
+        display: none;
+     } 
+     .myheader .topheader .login{
+        display: none;
+     }
+     .myheader .topheader .menubtn{
+        display: block;
+    }
+    .sec1 .offer .offer1 {
+        display: none;
+    }
+    .sec1 .email{
+        display: grid;    
+    
+    }
+    .sec1 .email .btn{
+        height: 30px;
+        width: 200px;
+    }
+    
+    
+}
+/* ========================= */
+
+@media (min-width:1200px) {
+    .myheader .topheader .menubar ul{
+        display: flex;
+     } 
+     .myheader .topheader .login{
+        display: block;
+     }
+     .myheader .topheader .menubtn{
+        display: none;
+    }
+    .sec1 .offer .offer1 {
+        display: inline;
+    }
+    .sec1 .email{
+        display: flex;  
+    }
+    .sec1 .email .btn{
+        height: 30px;
+        width: 200px;
+    }
+    
+    
+}
+/* ========================= */
+
+@media (min-width:1400px) {
+    
+}
+/* ========================= */
